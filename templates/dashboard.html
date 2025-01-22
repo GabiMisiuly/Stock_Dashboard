@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ ticker }} Stock Dashboard</title>
+</head>
+<body>
+    <h1>{{ ticker }} Stock Dashboard</h1>
+    <img src="{{ plot_url }}" alt="Stock Plot">
+    <h2>Recent Data</h2>
+    {{ table_data | safe }}
+    <br>
+    <a href="/">Back to Home</a>
+</body>
+</html>
+

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Dashboard</title>
+</head>
+<body>
+    <h1>Welcome to the Stock Dashboard</h1>
+    <form action="/dashboard" method="post">
+        <label for="ticker">Ticker:</label>
+        <input type="text" id="ticker" name="ticker" required><br>
+        <label for="start_date">Start Date (YYYY-MM-DD):</label>
+        <input type="date" id="start_date" name="start_date" required><br>
+        <label for="end_date">End Date (YYYY-MM-DD):</label>
+        <input type="date" id="end_date" name="end_date" required><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
