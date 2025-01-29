@@ -1,4 +1,8 @@
-# Stock_Dashboard
+# Stock_Dashboard_IN_PROGRESS
+
+<img width="731" alt="Screenshot 2025-01-29 at 4 59 57 PM" src="https://github.com/user-attachments/assets/439880f9-0a35-4df6-8055-19fecbddbd51" />
+
+
 This repository contains a Flask web application that allows users to retrieve and visualize stock market data. The application integrates with Yahoo Finance to fetch historical stock data and presents the results as interactive plots and tables. Below is a detailed breakdown of the project:
 
 Stock-Dashboard/
